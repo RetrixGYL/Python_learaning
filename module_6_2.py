@@ -18,7 +18,7 @@ class Vehicle:
 
     def print_info(self):
         self.get_model()
-        # self.__engine_power()
+        self.get_horsepower
         self.get_color()
         print(f'Владелец: {self.owner}')
 
